@@ -56,7 +56,7 @@ btnRoll.addEventListener('click', function () {
 
     // 2: displaying the image
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.PNG`;
+    diceEl.src = `imgs/dice-${dice}.PNG`;
 
     // 3: displaying the score and adding the score
     // if it is not 1
@@ -100,3 +100,4 @@ btnHold.addEventListener('click', function () {
 });
 
 btnNew.addEventListener('click', init);
+
